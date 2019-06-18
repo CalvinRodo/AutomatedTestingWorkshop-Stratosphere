@@ -2,6 +2,14 @@
 
 
 
+## How to run Cypress: 
+
+0. Open the cmd line you can do so wit the following key command: `win+r` and then typing `cmd`  
+0. Navigate to the following folder: `cd c:/workspace/automatedtestingworksohp-stratosphere/activity/`
+0. Run the following command `npm i` to install all node dependencies **note: this may have already been done**
+0. Run the following command to open cypress: `npm run cypress:open`
+
+Pick one of the following user stories and write a test for it using Cypress. 
 
 ## CDS Products: 
 
