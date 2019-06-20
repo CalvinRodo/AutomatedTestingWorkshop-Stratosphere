@@ -1,13 +1,14 @@
 # Digital Academy Automated Testing Workshop
 
-
+In this workshop you will be given the opportunity to try out Cypress.io for Test Automation as well as try out [Cypress-Axe](https://www.npmjs.com/package/cypress-axe) for automating accessiblity testing.
 
 ## How to run Cypress: 
 
 0. Open the cmd line you can do so wit the following key command: `win+r` and then typing `cmd`  
-0. Navigate to the following folder: `cd c:/workspace/automatedtestingworksohp-stratosphere/activity/`
+0. Navigate to the following folder: `cd %USERPROFILE%/auto-test-workshop-strat/`
 0. Run the following command `npm i` to install all node dependencies **note: this may have already been done**
 0. Run the following command to open cypress: `npm run cypress:open`
+0. Run the following command to open the folder in visual studio code: `code .`
 
 Pick one of the following user stories and write a test for it using Cypress. 
 
@@ -23,6 +24,8 @@ The Reschedule a Citizenship Test service was created in partnership with IRCC.
 Link to Beta Service: https://vancouver.rescheduler-dev.cds-snc.ca/  
 Link to Github Repo: https://github.com/cds-snc/ircc-rescheduler
 
+The test will reside in the following folder: 
+`/activity/cypress/integration/workshop/ircc-rescheduler.spec.js`
 
 #### User Stories 
 
@@ -41,6 +44,9 @@ Link to Github Repo: https://github.com/cds-snc/report-a-cybercrime
 
 <sup>*</sup> As this is an Alpha Version the following features may not exist at the time of this workshop.
 
+The test will reside in the following folder: 
+`/activity/cypress/integration/workshop/rcmp-cybercrime.spec.js`
+
 #### User stories
 
 1. *As a* Citizen in Immediate Danger *I need* guidance in an emergency *so that* I can get help  
@@ -52,12 +58,3 @@ Link to Github Repo: https://github.com/cds-snc/report-a-cybercrime
 
 3. *As a* Victim of a Cyber Crime *I would like to* be able to report my story online *so that* I can get a follow up.  
 **Definition of Done:** User is directed to Report-Cyber.ca 
-
-
-ESDC (For those who want to create MyService Canada Business Account)
-https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/ei-roe/access-roe.html
-
-Need to create an account and then make it to the "Record of Employment" Screen. 
-Click on Record of Employment menu -> ROE Web Demo
-
-
